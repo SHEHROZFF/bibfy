@@ -1,0 +1,73 @@
+{
+  "name": "bibserver",
+  "version": "1.0.0",
+  "description": "Robust API server for fetching bibliography/citation information",
+  "main": "dist",
+  "scripts": {
+    "dev": "nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
+    "build": "babel src -s -D -d dist --presets es2015,stage-0",
+    "start": "node dist",
+    "prestart": "npm run -s build",
+    "test": "eslint src"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "no-console": 0,
+      "no-unused-vars": 1
+    }
+  },
+  "repository": "https://gitlab.com/bbworld1/bibserver",
+  "author": "Vincent Wang <vwangsf@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.9.0",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "bookify": "^0.1.2",
+    "citeproc": "^2.3.10",
+    "compression": "^1.5.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "express-prometheus-middleware": "^0.9.6",
+    "fuse.js": "^3.6.1",
+    "jsdom": "^15.2.1",
+    "metascraper": "^5.11.10",
+    "metascraper-author": "^5.11.10",
+    "metascraper-clearbit": "^5.11.13",
+    "metascraper-date": "^5.11.10",
+    "metascraper-description": "^5.11.10",
+    "metascraper-image": "^5.11.10",
+    "metascraper-logo": "^5.11.10",
+    "metascraper-logo-favicon": "^5.11.13",
+    "metascraper-publisher": "^5.11.10",
+    "metascraper-title": "^5.11.10",
+    "metascraper-url": "^5.11.10",
+    "morgan": "^1.10.0",
+    "npmlog": "^4.1.2",
+    "parse-domain": "^3.0.2",
+    "prom-client": "^12.0.0",
+    "resource-router-middleware": "^0.6.0",
+    "serverless-http": "^2.5.0",
+    "shelljs": "^0.8.4",
+    "superagent-cache": "^3.1.1",
+    "underscore": "^1.10.2",
+    "xmldom": "^0.2.1",
+    "xpath": "0.0.27",
+    "zotero-translation-client": "^3.0.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^3.1.1",
+    "nodemon": "^2.0.4"
+  }
+}

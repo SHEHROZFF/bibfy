@@ -1,0 +1,27 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/author-field.js": "components/author-field.js",
+    "components/citation-list.js": "components/citation-list.js",
+    "components/cite-card.js": "components/cite-card.js",
+    "components/footer.js": "components/footer.js",
+    "components/manual-cite-form.js": "components/manual-cite-form.js",
+    "components/search-bar.js": "components/search-bar.js",
+    "components/source-card.js": "components/source-card.js",
+    "components/style-search-bar.js": "components/style-search-bar.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/author-field.js": "components/author-field.js.map",
+    "components/citation-list.js": "components/citation-list.js.map",
+    "components/cite-card.js": "components/cite-card.js.map",
+    "components/footer.js": "components/footer.js.map",
+    "components/manual-cite-form.js": "components/manual-cite-form.js.map",
+    "components/search-bar.js": "components/search-bar.js.map",
+    "components/source-card.js": "components/source-card.js.map",
+    "components/style-search-bar.js": "components/style-search-bar.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}

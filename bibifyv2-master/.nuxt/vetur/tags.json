@@ -1,0 +1,26 @@
+{
+  "AuthorField": {
+    "description": "Auto imported from components/AuthorField.vue"
+  },
+  "CitationList": {
+    "description": "Auto imported from components/CitationList.vue"
+  },
+  "CiteCard": {
+    "description": "Auto imported from components/CiteCard.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "ManualCiteForm": {
+    "description": "Auto imported from components/ManualCiteForm.vue"
+  },
+  "SearchBar": {
+    "description": "Auto imported from components/SearchBar.vue"
+  },
+  "SourceCard": {
+    "description": "Auto imported from components/SourceCard.vue"
+  },
+  "StyleSearchBar": {
+    "description": "Auto imported from components/StyleSearchBar.vue"
+  }
+}
